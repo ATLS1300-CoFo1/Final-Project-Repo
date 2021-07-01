@@ -58,7 +58,9 @@ run = True
 turtList = [] # empty list for adding turtles!
 numObj = 3 # how many objects this EXAMPLE code makes. CHANGE NAME.
 
-# make objects here, make lists here
+# Make objects here ("call" your class name!)
+
+# Make lists here
 for i in range(numObj):
     turt = changeThisName() # instantiate my super powered turtle!   
     turtList.append(turt) # add the turtle to the list using the append method!
@@ -68,7 +70,10 @@ for i in range(numObj):
 
 while run:
     # call animation functions or complete animation tasks.
+    
     # you will probably use a for loop to step through your list of turtles
+    # for i in range(len(turtList)):
+    #   do something with turtList[i]...
     
     # run check function(s) that control gameover or end of user experience
    
