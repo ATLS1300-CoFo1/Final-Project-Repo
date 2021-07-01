@@ -14,12 +14,8 @@ DELETE this line for full credit - this script, as-is, blinks a turtle on blue b
 
 import random, turtle
 
-#=============================GLOBAL VARIABLES============================
+#==============================CLASSES GO HERE IF APPLICABLE================================
 
-#==============================CLASSES================================
-
-class changeTHisName(turtle.Turtle):
-    pass # delete this and replace with your code.
 
 #==========================DEFINE FUNCTIONS=============================
 def setup(w=600,h=600,tracer=False, origin="center"):
@@ -45,19 +41,20 @@ def setup(w=600,h=600,tracer=False, origin="center"):
         panel.setworldcoordinates(0, w, h, 0)
         
 
-#===============INITIAL CONDITIONS==================
+#===============INITIAL CONDITIONS & VARIABLES ==================
 setup()
 
 # Define your start variables here!
 frameInterval = 100 # The time, in ms, between frames. Increase value to slow animation, decrease value to speed up animaton
 run = True
 
-# make objects here, make lists here
+# Make objects here, make lists here
 
 #=======================GAME LOOP (Execution)=========================
 
 while run:
-    # call animation function
+    # call animation function here
+    
     
     # run check function(s) that control gameover or end of user experience
    
