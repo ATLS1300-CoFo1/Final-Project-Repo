@@ -46,3 +46,25 @@ for i in range(len(yourList)):
   # yourList[i] accesses the list of turtles
   # colorList[i] accesses the list of colors
         
+        
+       
+# ============= BONUS: MODULOOOOOOOOOOOO =============
+
+# using modulo to have continuous use of values despite differences in list length
+yourList.append(turtle.Turtle()) # now the lists have different lengths
+
+print("yourList is {} elements long.".format(len(yourList)))
+print("colorList is {} elements long.".format(len(yourList)))
+
+# use the for loop with modulo! 
+for i in range(len(yourList)): 
+    #step through the shorter list
+    print("color before: "+yourList[i].color()[0])
+    
+    # print(i&len(colorList)) #uncomment to learn the ancient ways of Modulo
+    
+    yourList[i].color( colorList[ i % len(colorList) ] ) #access one list, modulo the length of the other list
+   
+    # the modulo indexing formula is: i % len(shorterList)
+    print("color after: "+yourList[i].color()[0])
+      
