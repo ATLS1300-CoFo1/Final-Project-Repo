@@ -1,14 +1,16 @@
 """
 This is a function to detect collisions. A example of use is below. Uncommenting may not have the code run properly!
 """
+
 def isCollision(turt,target,buffer=30):
     '''Detects collision with an object (turt) or list of objects (target).
+    Made by Dr. Z
     Inputs:
       turt - the main object (MUST be a Turtle object)
       target - the collision target (can be Turtle object or list of Turtles object)
       buffer - area surrounding turt center that counts as a collision. Default value is 30 pixels. (int)
     Returns:
-      Boolean value whether the two items have collided'''
+      Boolean value whether the two items have collided.'''
     
     target = target[:] # duplicate target
     x = turt.xcor() # get positions
