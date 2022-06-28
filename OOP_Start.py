@@ -54,7 +54,7 @@ setup()
 
 # Define your start variables here!
 frameInterval = 100 # The time, in ms, between frames. Increase value to slow animation, decrease value to speed up animaton
-run = True
+running = True
 turtList = [] # empty list for adding turtles!
 numObj = 3 # how many objects this EXAMPLE code makes. CHANGE NAME.
 
@@ -62,13 +62,12 @@ numObj = 3 # how many objects this EXAMPLE code makes. CHANGE NAME.
 
 # Make lists here
 for i in range(numObj):
-    turt = changeThisName() # instantiate my super powered turtle!   
-    turtList.append(turt) # add the turtle to the list using the append method!
+    turtList.append(changeThisName()) # add the turtle to the list using the append method!
     
 
 #=======================GAME LOOP (Execution)=========================
 
-while run:
+while running:
     # call animation functions or complete animation tasks.
     
     # you will probably use a for loop to step through your list of turtles
@@ -76,11 +75,12 @@ while run:
     #   do something with turtList[i]...
     
     # run check function(s) that control gameover or end of user experience
+    
+    # conditional statement for end condition (stopping animation, game, etc.)
    
     
     turtle.delay(frameInterval) #set frame rate
     panel.update() # update the image with each "frame"
 
-panel.mainloop() # keep listeners on for mouse press
 turtle.done()
         
