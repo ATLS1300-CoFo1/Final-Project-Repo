@@ -24,11 +24,13 @@ Email if you need more examples!
 
 # Final Project Requirements
 ## All code must:
-- be fully functional! Make sure you test your code by restarting your kernel and then running your code.
-- meet all the requirements of your topic description (all rules met, the correct number of art pieces, keypresses, mouse clicks, etc.)
-- be well commented! Label sections (classes, functions, tasks, etc.), write notes for any confusing or hard-to-follow sections, describe what functions do, etc.
-- have any copied code MUST be cited (it's just good practice)
-- have any bugs that persisted through your presentation should be commented and the fix described (ex. typo! needed to make a new variable, etc.)
+- **be fully functional!** Make sure you test your code by restarting your kernel and then running your code.
+- **be fully OOP** - at least organized into functions, with a call and/or instantiation in the `if __name__=="__main__"` conditional
+- **contain accessible design**. You must choose one group from the oustide of the Power Wheel (see assignment in Canvas)
+- **meet all the requirements of your topic description** (all rules met, the correct number of art pieces, keypresses, mouse clicks, etc.)
+- **be well commented!** Label sections (classes, functions, tasks, etc.), write notes for any confusing or hard-to-follow sections, describe what functions do, etc.
+- have any copied code **MUST be cited** (don't risk getting a zero on your final project)
+- have any bugs that persisted through your presentation **commented and the fix described** (ex. typo! needed to make a new variable, etc.)
 
 ## Make sure you should turn in:
 1. your script (.py file)
@@ -39,7 +41,7 @@ I recommend working on your code in a new folder, and save all supplementary fil
 Zipping files: https://rasmussen.libanswers.com/faq/32413
 
 # Requirements by Topic
-## Game - OOP required
+## Game 
 Make a complete game using Python and turtle. Complete means it has a start screen or button and a game over screen/text. You are not allowed to make the following games: snake, racing games, pong. Feel free to create your own game, or recreate a classic favorite! You may use outside code for inspiration/help, but can have no more than 20% borrowed code in your final project. For ideas, think of card games like War, Go Fish or how you can make a classic game blind friendly (sound-oriented). 
 
 ### Requirements:
@@ -57,7 +59,7 @@ Make a complete game using Python and turtle. Complete means it has a start scre
 **Please clearly indicate the additions you are making using commenting in your code. Describe overarching/major changes in the description at the top of the code.**
 
  
-## Digital Art Gallery - OOP Optional
+## Digital Art Gallery 
 Create a series of generative art pieces. The gallery should should draw from 3 pieces total, you can step through each piece with a click or key stroke (see Final Project example code). Each piece can be as simple or as complex as you like. To set up the gallery, you can have each image/animation show one after the other. Feel free to set music to it! This topic weighs heavily on creative and artistic values. Use of objects is strongly encouraged (read: this makes code excellent instead of good.)
 
 1. Create 3 standalone .py files that, when run, create a generative art piece. This means there is a random element that changes some element of the piece each time. Each piece should lend to some overarching theme (seasons, moods, times of day, progression through a coding project...)
@@ -69,7 +71,7 @@ Create a series of generative art pieces. The gallery should should draw from 3 
 **2pts extra credit** - Use an object to create an element in at least 2 of your scripts.
 
  
-## Interactive Ad - OOP Required!
+## Interactive Ad 
 Create 1 ad that have some interaction (click or key press).  The ad should present a product or company. The interaction should explain the product or company--how it works, different flavors, etc. You may also try a quiz to select a product from a list of products for a potential consumer (segmenting).  You can make a spoof or link to an actual product. Website link tutorial available upon request.
 
 1. Describe what the ad is based off of, or the goal of the ad in the description.
